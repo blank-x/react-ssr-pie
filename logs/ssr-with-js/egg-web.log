@@ -1,0 +1,36 @@
+2021-04-06 09:40:48,523 INFO 55052 [egg:logger] init all loggers with options: {"dir":"/Users/cc/github/react-ssr-pie/logs/ssr-with-js","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-js-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-06 09:40:48,545 INFO 55052 [egg-multipart] stream mode enable
+2021-04-06 09:40:48,622 INFO 55052 [egg-static] starting static serve / -> /Users/cc/github/react-ssr-pie/dist
+2021-04-06 09:40:48,622 INFO 55052 [egg-static] starting static serve / -> /Users/cc/github/react-ssr-pie/app/public
+2021-04-06 09:40:48,624 INFO 55052 [egg-security] use csrf middleware
+2021-04-06 09:40:48,625 INFO 55052 [egg-security] use methodnoallow middleware
+2021-04-06 09:40:48,625 INFO 55052 [egg-security] use noopen middleware
+2021-04-06 09:40:48,626 INFO 55052 [egg-security] use nosniff middleware
+2021-04-06 09:40:48,626 INFO 55052 [egg-security] use xssProtection middleware
+2021-04-06 09:40:48,626 INFO 55052 [egg-security] use xframe middleware
+2021-04-06 09:40:48,627 INFO 55052 [egg-security] use dta middleware
+2021-04-06 09:40:48,627 INFO 55052 [egg-security] compose 7 middlewares into one security middleware
+2021-04-06 09:40:48,688 INFO 55052 [egg:core] dump config after load, 4ms
+2021-04-06 09:40:48,700 INFO 55052 [egg-watcher:application] watcher start success
+2021-04-06 09:40:48,706 INFO 55052 [egg:core] dump config after ready, 5ms
+2021-04-06 10:15:42,378 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-06 20:45:02,407 WARN 55052 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-04-06 20:45:02,409 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-07 07:10:11,716 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-07 22:10:52,231 WARN 55052 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-04-07 22:10:52,232 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-07 23:33:48,952 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-08 07:07:38,858 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-08 09:55:34,498 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-08 20:45:01,728 WARN 55052 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-04-08 20:45:01,803 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-08 21:50:48,570 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-08 23:26:03,587 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-09 07:39:05,434 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-09 08:29:20,282 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-09 08:56:38,187 WARN 55052 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-04-09 08:56:38,188 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-09 09:48:54,365 WARN 55052 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-04-09 09:48:54,366 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-04-09 20:08:03,705 WARN 55052 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-04-09 20:08:03,730 WARN 55052 [ClusterClient:Watcher] follower closed, and try to init it again

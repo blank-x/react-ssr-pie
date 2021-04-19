@@ -1,0 +1,131 @@
+2021-04-06 09:40:47,862 INFO 55051 [egg:logger] init all loggers with options: {"dir":"/Users/cc/github/react-ssr-pie/logs/ssr-with-js","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-js-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-06 09:40:47,870 INFO 55051 [egg:core] dump config after load, 4ms
+2021-04-06 09:40:47,910 INFO 55051 [egg-watcher] Start watching: ["/Users/cc/github/react-ssr-pie/app","/Users/cc/github/react-ssr-pie/config","/Users/cc/github/react-ssr-pie/mocks","/Users/cc/github/react-ssr-pie/mocks_proxy","/Users/cc/github/react-ssr-pie/app.js"]
+2021-04-06 09:40:47,910 INFO 55051 [egg-watcher] Start watching: "/Users/cc/github/react-ssr-pie/app"
+2021-04-06 09:40:47,910 INFO 55051 [egg-watcher] Start watching: "/Users/cc/github/react-ssr-pie/config"
+2021-04-06 09:40:47,911 INFO 55051 [egg-watcher] Start watching: "/Users/cc/github/react-ssr-pie/mocks"
+2021-04-06 09:40:47,911 INFO 55051 [egg-watcher] Start watching: "/Users/cc/github/react-ssr-pie/mocks_proxy"
+2021-04-06 09:40:47,911 INFO 55051 [egg-watcher] Start watching: "/Users/cc/github/react-ssr-pie/app.js"
+2021-04-06 09:40:47,914 INFO 55051 [egg-watcher:agent] watcher start success
+2021-04-06 09:40:47,926 INFO 55051 [egg:core] dump config after ready, 8ms
+2021-04-06 09:40:48,649 INFO 55051 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/cc/github/react-ssr-pie/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12982878593,"size":64,"blocks":0,"atimeMs":1617673248622.8835,"mtimeMs":1617673248622.8835,"ctimeMs":1617673248622.8835,"birthtimeMs":1617673248622.8835,"atime":"2021-04-06T01:40:48.623Z","mtime":"2021-04-06T01:40:48.623Z","ctime":"2021-04-06T01:40:48.623Z","birthtime":"2021-04-06T01:40:48.623Z"},"remove":false,"isDirectory":true,"isFile":false}
+2021-04-06 10:15:42,381 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 573287ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-06 20:45:02,027 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 37739140ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-07 07:10:11,717 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 37509265ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-07 22:10:52,232 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 54000501ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-07 23:33:48,955 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 575830ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-08 07:07:38,858 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 27209886ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-08 09:55:34,499 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 573703ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-08 20:45:01,848 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 38946683ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-08 21:50:48,570 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 3946664ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-08 23:26:03,588 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 574076ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-09 07:39:05,436 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 29561832ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-09 08:29:20,282 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 574470ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-09 08:56:38,188 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 1617898ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-09 09:48:54,366 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 575612ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
+2021-04-09 20:08:03,714 ERROR 55051 nodejs.ClusterClientNoResponseError: client no response in 37129013ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/cc/github/react-ssr-pie/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55051
+hostname: ccdeMacBook-Pro.local
+
